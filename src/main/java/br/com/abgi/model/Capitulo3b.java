@@ -11,4 +11,5 @@ public class Capitulo3b {
 		
 		ceps.forEach(valor -> System.out.println(valor.matches("[0-9]{5}-[0-9]{3}")));
 	}
+	
 }
