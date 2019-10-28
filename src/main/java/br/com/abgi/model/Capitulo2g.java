@@ -3,7 +3,7 @@ package br.com.abgi.model;
 import java.util.Arrays;
 import java.util.List;
 
-public class Capitulo2 {
+public class Capitulo2g {
 
 	public static void main(String[] args) {
 		Usuario usuario1 = new Usuario("Abimael", 150);
@@ -12,9 +12,7 @@ public class Capitulo2 {
 
 		List<Usuario> usuarios = Arrays.asList(usuario1, usuario2, usuario3);
 
-		for (Usuario u : usuarios) {
-			System.out.println(u.getNome());
-		}
+		usuarios.forEach(u -> System.out.println(u.getNome()));
 
 	}
 }
