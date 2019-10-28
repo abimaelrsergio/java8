@@ -1,6 +1,6 @@
 package br.com.abgi.model;
 
-public class Usuario {
+class Usuario {
 
 	private String nome;
 	private int pontos;
